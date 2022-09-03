@@ -22,3 +22,12 @@ pre-commit
 pre-commit autoupdate
 ```
 
+black
+---
+
+- Check and reformat the current directory
+    ```shell
+    python -m black .
+    ```
+
+- [`jupyter-black`](https://pypi.org/project/jupyter-black/): To beautify python code in Jupyter Notebook
